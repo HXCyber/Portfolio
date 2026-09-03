@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <!-- Toegevoegd: class="login-page" -->
+  <body class="login-page">
+    
+    <div class="login-container">
+        <!-- De basistekst -->
+        <h1 id="welcome-text">Welcome dear visitor!</h1>
+
+        <!-- Toegevoegd: class="login-form" -->
+        <form onsubmit="bewaarNaam(event)" class="login-form">
+            <input type="text" id="visitor-name" placeholder="Enter your name character..." required>
+            <button type="submit">Meet Myriam</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

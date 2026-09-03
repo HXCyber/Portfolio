@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myriam's Portfolio</title>
+    <!-- Linking to the same CSS stylesheet for a matching design -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+       <!-- 1. HEADER LINKSBOVEN -->
+       <header class="portfolio-header">
+         <div class="profile-magnifier">
+           <!-- Vervang 'myriam.png' door jouw echte fotobestand -->
+           <img src="myriam.png" alt="Myriam Id Elmahjoub">
+         </div>
+         
+         <div>
+            <h1 id="welcome-header">Welcome!</h1>
+         </div>
+       </header>
+       
+       <!-- 2. CAROUSEL CONTAINER -->
+       <div class="carousel-container">
+         <div class="carousel-track" id="track">
+           
+           <!-- Slide 1 -->
+           <div class="slide">
+             <div class="slide-content">
+               <img src="project 1.png" alt="Project 1 Image" class="carousel-exact-img">
+               <div class="project-info">
+                 <h3>Tic-Tac-Toe with AI</h3>
+                 <p><stron>Human vs. AI</stron></p>
+                 <p>I built this game to explore AI decision-making in a simple competitive environment. My goal was to create an opponent smart enough to challenge a human and test whether the player could still beat it.</p>
+                 <span class="tech-tag">JavaScript</span> <span class="tech-tag">CSS</span> <span class="tech-tag">HTML</span>
+               </div>
+             </div>
+           </div>
+
+           <!-- Slide 2 -->
+           <div class="slide">
+             <div class="slide-content">
+               <img src="project 2.png" alt="Project 2 Image" class="carousel-exact-img">
+               <div class="project-info">
+                 <h3>Net Worth Calculator</h3>
+                 <p><strong>Making financial awareness accessible</strong></p>
+                 <p>I built this calculator to introduce a simple way of understanding personal finances. By tracking assets and liabilities, users can become more mindful of their resources while learning a basic budgeting concept.</p>
+                 <span class="tech-tag">JavaScript</span> <span class="tech-tag">CSS</span> <span class="tech-tag">HTML</span>
+               </div>
+             </div>
+           </div>
+
+           <!-- Slide 3 -->
+           <div class="slide">
+             <div class="slide-content">
+               <img src="project 3.png" alt="Project 3 Image" class="carousel-exact-img">
+               <div class="project-info">
+                 <h3>Personal Portfolio</h3>
+                 <p><strong>Showcasing my learning journey</strong></p>
+                 <p>I created my portfolio to present what I&#39;ve built during my learning journey in a clear and accessible way. Rather than simply listing skills &#44;I wanted to demonstrate them through real projects and show how quickly I can turn new knowledge into working products.</p>
+                 <span class="tech-tag">JavaScript</span> <span class="tech-tag">CSS</span>
+                 <span class="tech-tag">HTML</span>
+               </div>
+             </div>
+           </div>
+
+         </div>
+         <button class="btn btn-prev" id="prevBtn">❮</button>
+         <button class="btn btn-next" id="nextBtn">❯</button>
+       </div>
+
+       <!-- 3. ABOUT ME SECTIE -->
+       <section class="about-section">
+         <h2 class="section-header">About Me</h2>
+         <div class="about-container">
+           <p>
+             I&#39;m a self-driven developer who learns by building and experimenting. I enjoy turning ideas into simple&#44; useful&#44;and interactive experiences. I&#39;m especially interested in web development&#44;AI&#44;and solving real-world problems through technology. I&#39;m always looking for the next challenge that helps me learn and grow.
+           </p>
+           <p><strong> Myriam Id Elmahjoub based in Belgium,Brussels.</strong> </p>
+         </div>
+       </section>
+
+       <!-- 4. SKILLS SECTIE -->
+       <section class="skills-section">
+         <h2 class="skills-header">My Skills</h2>
+         
+         <div class="skills-grid">
+           <!-- HTML -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>HTML</span>
+               <span>65%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+           </div>
+
+           <!-- CSS -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>CSS</span>
+               <span>60%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+           </div>
+
+           <!-- JavaScript -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>JavaScript</span>
+               <span>60%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+           </div>
+
+           <!-- Figma -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>Figma</span>
+               <span>80%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+           </div>
+
+           <!-- Cursor AI -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>Cursor AI</span>
+               <span>60%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+           </div>
+
+           <!-- VS Code -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>VS Code</span>
+               <span>95%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+           </div>
+
+           <!-- GitHub -->
+           <div class="skill-card">
+             <div class="skill-info">
+               <span>GitHub</span>
+               <span>55%</span>
+             </div>
+             <div class="progress-bar"><div class="progress" style="width: 55%;"></div></div>
+           </div>
+         </div>
+       </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
